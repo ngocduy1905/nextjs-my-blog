@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Channel Hub C-Level Snapshot</title>
+  <desc id="desc">High-level architecture and KPI infographic for executive presentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+    <style>
+      .title { font: 700 46px 'Inter', 'Segoe UI', sans-serif; fill: #f8fafc; }
+      .subtitle { font: 500 20px 'Inter', 'Segoe UI', sans-serif; fill: #cbd5e1; }
+      .kpi-label { font: 600 17px 'Inter', 'Segoe UI', sans-serif; fill: #94a3b8; letter-spacing: 0.6px; text-transform: uppercase; }
+      .kpi-value { font: 800 48px 'Inter', 'Segoe UI', sans-serif; fill: #f8fafc; }
+      .kpi-note { font: 500 18px 'Inter', 'Segoe UI', sans-serif; fill: #e2e8f0; }
+      .box-title { font: 700 24px 'Inter', 'Segoe UI', sans-serif; fill: #f8fafc; }
+      .box-text { font: 500 17px 'Inter', 'Segoe UI', sans-serif; fill: #dbeafe; }
+      .tiny { font: 600 14px 'Inter', 'Segoe UI', sans-serif; fill: #94a3b8; letter-spacing: 1px; text-transform: uppercase; }
+      .chip { font: 700 15px 'Inter', 'Segoe UI', sans-serif; fill: #e0f2fe; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="900" fill="url(#bg)" />
+  <rect x="0" y="0" width="1600" height="10" fill="url(#accent)" />
+
+  <text x="80" y="95" class="title">Channel Hub - C-Level Snapshot</text>
+  <text x="80" y="132" class="subtitle">Multi-channel communication platform | Executive scan under 30 seconds</text>
+
+  <g transform="translate(80,180)" filter="url(#shadow)">
+    <rect x="0" y="0" width="340" height="160" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="38" class="kpi-label">Platform Scale</text>
+    <text x="24" y="94" class="kpi-value">20+</text>
+    <text x="24" y="130" class="kpi-note">Deployable services</text>
+  </g>
+
+  <g transform="translate(440,180)" filter="url(#shadow)">
+    <rect x="0" y="0" width="340" height="160" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="38" class="kpi-label">Channel Coverage</text>
+    <text x="24" y="94" class="kpi-value">14</text>
+    <text x="24" y="130" class="kpi-note">8 outbound + 6 inbound</text>
+  </g>
+
+  <g transform="translate(800,180)" filter="url(#shadow)">
+    <rect x="0" y="0" width="340" height="160" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="38" class="kpi-label">Throughput Baseline</text>
+    <text x="24" y="94" class="kpi-value">~5M</text>
+    <text x="24" y="130" class="kpi-note">Messages per day experience</text>
+  </g>
+
+  <g transform="translate(1160,180)" filter="url(#shadow)">
+    <rect x="0" y="0" width="340" height="160" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="38" class="kpi-label">Runtime Core</text>
+    <text x="24" y="94" class="kpi-value">.NET</text>
+    <text x="24" y="130" class="kpi-note">Distributed service ecosystem</text>
+  </g>
+
+  <text x="80" y="390" class="tiny">Architecture Flow</text>
+
+  <g transform="translate(80,420)" filter="url(#shadow)">
+    <rect x="0" y="0" width="200" height="105" rx="14" fill="#1e293b" stroke="#334155" />
+    <text x="20" y="45" class="box-title">Gateway</text>
+    <text x="20" y="75" class="box-text">Ingress + Routing</text>
+  </g>
+
+  <g transform="translate(320,420)" filter="url(#shadow)">
+    <rect x="0" y="0" width="220" height="105" rx="14" fill="#1e293b" stroke="#334155" />
+    <text x="20" y="45" class="box-title">Identity</text>
+    <text x="20" y="75" class="box-text">JWT + RBAC</text>
+  </g>
+
+  <g transform="translate(580,405)" filter="url(#shadow)">
+    <rect x="0" y="0" width="330" height="135" rx="16" fill="#082f49" stroke="#0284c7" stroke-width="2" />
+    <text x="24" y="56" class="box-title">Delivery Orchestration</text>
+    <text x="24" y="88" class="box-text">Quota-safe dispatch</text>
+    <text x="24" y="114" class="box-text">Atomic reserve/finalize</text>
+  </g>
+
+  <g transform="translate(950,420)" filter="url(#shadow)">
+    <rect x="0" y="0" width="250" height="105" rx="14" fill="#1e293b" stroke="#334155" />
+    <text x="20" y="45" class="box-title">Kafka + Adapters</text>
+    <text x="20" y="75" class="box-text">Async channel execution</text>
+  </g>
+
+  <g transform="translate(1240,420)" filter="url(#shadow)">
+    <rect x="0" y="0" width="260" height="105" rx="14" fill="#1e293b" stroke="#334155" />
+    <text x="20" y="45" class="box-title">Tracker + Report</text>
+    <text x="20" y="75" class="box-text">Canonical status model</text>
+  </g>
+
+  <g stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M280 472 L320 472" />
+    <path d="M540 472 L580 472" />
+    <path d="M910 472 L950 472" />
+    <path d="M1200 472 L1240 472" />
+  </g>
+
+  <g fill="#38bdf8">
+    <polygon points="312,466 320,472 312,478" />
+    <polygon points="572,466 580,472 572,478" />
+    <polygon points="942,466 950,472 942,478" />
+    <polygon points="1232,466 1240,472 1232,478" />
+  </g>
+
+  <text x="80" y="595" class="tiny">Reliability and Operations</text>
+
+  <g transform="translate(80,620)" filter="url(#shadow)">
+    <rect x="0" y="0" width="340" height="190" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="45" class="box-title">Latency</text>
+    <text x="24" y="80" class="kpi-note">p95 &lt; 250ms (sync APIs)</text>
+    <text x="24" y="125" class="box-title">Reliability</text>
+    <text x="24" y="160" class="kpi-note">&gt;= 99.95% critical paths</text>
+  </g>
+
+  <g transform="translate(450,620)" filter="url(#shadow)">
+    <rect x="0" y="0" width="340" height="190" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="45" class="box-title">SLA Response</text>
+    <text x="24" y="80" class="kpi-note">P1 &lt; 15m | P2 &lt; 30m</text>
+    <text x="24" y="125" class="box-title">MTTR</text>
+    <text x="24" y="160" class="kpi-note">Runbook + observability driven</text>
+  </g>
+
+  <g transform="translate(820,620)" filter="url(#shadow)">
+    <rect x="0" y="0" width="680" height="190" rx="18" fill="#1e293b" stroke="#334155" />
+    <text x="24" y="45" class="box-title">Leadership Signals</text>
+    <text x="24" y="83" class="chip">Architecture ownership</text>
+    <text x="280" y="83" class="chip">Engineering governance</text>
+    <text x="520" y="83" class="chip">Business impact focus</text>
+    <text x="24" y="130" class="box-text">Clear service boundaries and scalable contracts</text>
+    <text x="24" y="158" class="box-text">Operational discipline across multi-channel delivery systems</text>
+  </g>
+
+  <text x="80" y="862" class="subtitle">Prepared by Nguyen Ngoc Duy | Technical Lead</text>
+</svg>
